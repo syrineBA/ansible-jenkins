@@ -1,0 +1,7 @@
+---
+
+  - name: run pipenv insatll
+    command: pipenv install
+    args:
+       chdir: "{{ cp_dest }}"
+

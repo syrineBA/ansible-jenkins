@@ -1,0 +1,3 @@
+project_ios: /home/ec2-user/test_copy_project
+cp_src: /home/ubuntu/load_to_s3
+cp_dest: /home/ec2-user/test_copy_project

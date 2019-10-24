@@ -1,0 +1,7 @@
+
+[web]
+server1 ansible_ssh_host=52.215.4.17 ansible_ssh_port=22 become=yes ansible_ssh_user=ec2-user
+
+[controller]
+control ansible_connection=local ansible_ssh_user=syrine ansible_sudo_pass=
+

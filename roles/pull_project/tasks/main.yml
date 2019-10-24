@@ -1,0 +1,4 @@
+---
+ - name: Git Pull From Repo
+   git: repo=https://syrineBenAissa@bitbucket.org/loader_ios.git dest={{homeDir}}/{{appDir}} key_file={{key_path}}
+   register: git_finished

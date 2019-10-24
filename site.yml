@@ -1,0 +1,13 @@
+---
+- hosts: controller
+  sudo: yes
+  roles:
+    - pull_project
+
+- hosts: web
+  sudo: yes
+  roles:
+    - basic
+    - build_run_project
+    - pull_project
+

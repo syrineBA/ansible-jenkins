@@ -1,0 +1,10 @@
+---
+# ------------------- Install basics packages
+
+- name: install git
+  yum:
+    name=git
+
+- name: install vim
+  yum:
+    name=vim

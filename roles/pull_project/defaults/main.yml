@@ -1,0 +1,4 @@
+appDir: /load_to_s3
+repo : pull_project
+homeDir: /home/ubuntu
+key_path: /home/ubuntu/.ssh/id_rsa_pull.pub
